@@ -1,10 +1,12 @@
 import React from 'react'
 import Globe from '../components/Globe'
+import MapboxNavigation from '../components/MapboxNavigation'
 
 const Home = () => {
   return (
     <div>
-        <Globe/>
+        {/* <Globe/> */}
+        <MapboxNavigation/>
     </div>
   )
 }

@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["./src/*"]
+      },
+      "jsx": "react-jsx",  // Important for React projects using JSX
+      "moduleResolution": "node", // Adjust if needed
+      "module": "esnext"         // Adjust if needed
+    },
+    "include": ["src/**/*", "*"]
+  }
